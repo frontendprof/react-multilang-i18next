@@ -1,3 +1,6 @@
 {
-    "trans":"Добро пожаловать в приложение React с react-i18next"
-}
+    "app_title": "Название",
+    "language": "Язык",
+    "welcome_message": "добро пожаловать",
+    "days_since_release": "прошло {{number_of_days}} дней с тех пор, как было выпущено это видео"
+  }

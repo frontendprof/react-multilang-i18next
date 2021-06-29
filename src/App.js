@@ -1,8 +1,9 @@
 import React from 'react';
 import "./i18n"
 import { useTranslation } from "react-i18next";
-import HttpApi from 'i18next-http-backend';
 
+import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/js/bootstrap.js"
 
 function App() {
   const {t}=useTranslation();

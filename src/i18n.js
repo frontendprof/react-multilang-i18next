@@ -10,7 +10,7 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 
 
 const resources = {
-  en: {
+  ar: {
     translation: translationAR
   },
   ru: {
@@ -29,12 +29,13 @@ i18n
     resources,
     // fallbackLng: 'en',
     // lng: document.querySelector("html").lang, 
+    supportedLngs:["en","ru","ar"],
     keySeparator: false,
     interpolation: {
       escapeValue: false // react already safes from xss
     },
     detection:{
-        order: ['htmlTag', 'cookie', 'localStorage', 'path', 'subdomain'],
+        order: [ 'cookie','htmlTag', 'localStorage', 'path', 'subdomain'],
         caches:["cookie"]
     },
     backend:{
