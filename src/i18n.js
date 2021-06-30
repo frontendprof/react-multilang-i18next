@@ -35,7 +35,7 @@ i18n
       escapeValue: false // react already safes from xss
     },
     detection:{
-        order: [ 'cookie','htmlTag', 'localStorage', 'path', 'subdomain'],
+        order: [ 'path','cookie','htmlTag', 'localStorage', 'subdomain'],
         caches:["cookie"]
     },
     backend:{
